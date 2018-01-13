@@ -16,7 +16,7 @@ An example of using [OpenHFT Java-Runtime-Compiler](https://github.com/OpenHFT/J
         SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
         This is Example1!
 
-2. Run the application again, but this time use `Example2`:
+2. Run the application again, but this time use `Example2.java`:
 
         $ ./gradlew -Parg1=Example2 run
         
