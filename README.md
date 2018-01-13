@@ -1,4 +1,5 @@
 # openhft-javaruntimecompiler-example
+[![Build Status](https://travis-ci.org/gregwhitaker/openhft-javaruntimecompiler-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/openhft-javaruntimecompiler-example)
 
 An example of using [OpenHFT Java-Runtime-Compiler](https://github.com/OpenHFT/Java-Runtime-Compiler) to compile java classes at runtime and execute them.
 
@@ -15,7 +16,7 @@ An example of using [OpenHFT Java-Runtime-Compiler](https://github.com/OpenHFT/J
         SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
         This is Example1!
 
-2. Run the application again, but this time use `Example2`:
+2. Run the application again, but this time use `Example2.java`:
 
         $ ./gradlew runExample2
         
