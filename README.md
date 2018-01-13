@@ -1,4 +1,5 @@
 # openhft-javaruntimecompiler-example
+[![Build Status](https://travis-ci.org/gregwhitaker/openhft-javaruntimecompiler-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/openhft-javaruntimecompiler-example)
 
 An example of using [OpenHFT Java-Runtime-Compiler](https://github.com/OpenHFT/Java-Runtime-Compiler) to compile java classes at runtime and execute them.
 
