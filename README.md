@@ -1,5 +1,32 @@
 # openhft-javaruntimecompiler-example
 
+An example of using [OpenHFT Java-Runtime-Compiler](https://github.com/OpenHFT/Java-Runtime-Compiler) to compile java classes at runtime and execute them.
+
+## Running the Example
+1. Run the application, compile `Example1.java`, and execute the newly compiled class using the following command:
+
+        $ ./gradlew -Parg1=Example1 run
+    
+    You should see the following:
+    
+        > Task :run
+        SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+        SLF4J: Defaulting to no-operation (NOP) logger implementation
+        SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+        This is Example1!
+
+2. Run the application again, but this time use `Example2`:
+
+        $ ./gradlew -Parg1=Example2 run
+        
+    You should see the following:
+    
+        > Task :run
+        SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+        SLF4J: Defaulting to no-operation (NOP) logger implementation
+        SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+        This is Example2! 
+
 ## Bugs and Feedback
 For bugs, questions, and discussions please use the [Github Issues](https://github.com/gregwhitaker/openhft-javaruntimecompiler-example/issues).
 
