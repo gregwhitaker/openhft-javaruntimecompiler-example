@@ -24,3 +24,7 @@ dependencies {
 }
 
 mainClassName = 'com.github.gregwhitaker.openhft.example.Main'
+
+run {
+    args = ["$arg1"]
+}
